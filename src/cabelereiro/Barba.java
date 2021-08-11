@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package provapoo;
+package cabelereiro;
 
 import java.util.Scanner;
 
@@ -36,35 +36,35 @@ public class Barba {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("SELECIONE UM TIPO DE BARBA");
-        System.out.println("[1] - degradê");
-        System.out.println("[2] - Lenhador ");
-        System.out.println("[3] - bigode ");
-        System.out.println("[4] - palheta ");
-        System.out.println("[5] - cheia e modelada ");
-        System.out.println("Insira aqui qual tipo de corte de barba desejada: ");
+        System.out.println("[1] - DEGRADÊ");
+        System.out.println("[2] - LENHADOR ");
+        System.out.println("[3] - BIGODE ");
+        System.out.println("[4] - PALHETA ");
+        System.out.println("[5] - CHEIA E MODELADA ");
+        System.out.println("Digite o numero tipo de corte de barba desejada: ");
         op = entrada.nextInt();
 
         switch (op) {
             case 1:
-                Barba = "degradê";
+                Barba = "DEGRADÊ";
                 break;
 
             case 2:
-                Barba = "Lenhador";
+                Barba = "LENHADOR";
                 break;
 
             case 3:
-                Barba = "Bigode";
+                Barba = "BIGODE";
                 valorBarba = 3;
                 break;
 
             case 4:
-                Barba = "Palheta";
+                Barba = "PALHETA";
                 valorBarba = 2;
                 break;
                 
                 case 5:
-                Barba = "cheia e modelada";
+                Barba = "CHEIA E MODELADA";
                 valorBarba = 2;
                 break;
         }

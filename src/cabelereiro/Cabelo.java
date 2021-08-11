@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package provapoo;
+package cabelereiro;
 
 /**
  *
@@ -23,36 +23,36 @@ public class Cabelo {
         switch (op) {
             case 1:
                 amountcabelo = 5;
-                corte = "careca";
-                preco = 75;
-                Valuewithborder = 80;
+                corte = "CARECA";
+                preco = 5;
+                Valuewithborder = 10;
                 break;
 
             case 2:
                 amountcabelo = 4;
-                corte = "degradê";
-                preco = 66;
-                Valuewithborder = 69.5;
+                corte = "DEGRADê";
+                preco = 10;
+                Valuewithborder = 10;
                 break;
 
             case 3:
                 amountcabelo = 3;
-                corte = "moicano";
-                preco = 52;
-                Valuewithborder = 56.5;
+                corte = "MOECANO";
+                preco = 15;
+                Valuewithborder = 10;
                 break;
 
             case 4:
                 amountcabelo = 3;
-                corte = "dreadloks";
-                preco = 42;
-                Valuewithborder = 44.5;
+                corte = "DREADLOKS";
+                preco = 20;
+                Valuewithborder = 10;
                 break;
 
             case 5:
                 amountcabelo = 2;
-                corte = "social";
-                preco = 28;
+                corte = "SOCIAL";
+                preco = 8;
                 Validador = 1;
                 break;
         }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package provapoo;
+package cabelereiro;
 
 import java.util.ArrayList;
 
@@ -23,13 +23,13 @@ public class Sobrancelha {
 
         switch (op) {
             case 1:
-                listaSobrancelha.add("Risquinho");
+                listaSobrancelha.add("RISQUINHO");
                 break;
             case 2:
-                listaSobrancelha.add("Sobrancelha Comum");
+                listaSobrancelha.add("SOBRANCELHA COMUM");
                 break;
             case 3:
-                listaSobrancelha.add("rena");
+                listaSobrancelha.add("RENA");
                 valorSobrancelha += 10.00;
                 break;
             
